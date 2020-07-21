@@ -1,9 +1,9 @@
 #ifndef SIMPLE_GENERATOR_HPP_
-#	define SIMPLE_GENERATOR_HPP_
+#define SIMPLE_GENERATOR_HPP_
 
-#	include <functional>
-#	include <iterator>
-#	include <stdexcept>
+#include <functional>
+#include <iterator>
+#include <stdexcept>
 
 class stop_iteration : std::runtime_error
 {
@@ -56,7 +56,7 @@ public:
 		}
 		/**
 		 * Derefences the iterator.
-		 * 
+		 *
 		 * @return a reference to the next value
 		 * @throw std::runtime_error if the operation is invalid
 		 */
