@@ -1,6 +1,7 @@
 #ifndef SIMPLE_GENERATOR_HPP_
 #define SIMPLE_GENERATOR_HPP_
 
+#include <cstddef>
 #include <functional>
 #include <iterator>
 #include <stdexcept>
